@@ -1,0 +1,50 @@
+<html>
+<head>
+    <style>
+    table,tr,th,td{
+        border:1px solid black;
+        border-collapse:collapse;
+        text-align:center;
+    }
+    table{
+        width:30%;
+    }
+    </style>
+</head>
+<body>
+    <h3 style="text-align:center;">Displaying Table Data</h3>
+    <table id="myTable" style="width:50%;">
+        <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Date</th>
+            <th>Workplan</th>
+        </tr>
+        <tr>
+            <td>XX</td>
+            <td>CSE</td>
+            <td>01-05-2024</td>
+            <td id="tas">learn the Javascript basics.</td>
+        </tr>
+        <tr>
+            <td>YY</td>
+            <td>ECE</td>
+            <td>01-05-2024</td>
+            <td id="tas">learn the CSS basics.</td>
+        </tr>
+        <tr>
+            <td>ZZ</td>
+            <td>ECE</td>
+            <td>01-05-2024</td>
+            <td id="tas">learn the HTML basics.</td>
+        </tr>
+    </table><br>
+    <button type="button" onclick="displayTable()">Display table data</button>
+    <script>
+        function displayTable(){
+            let tab=document.getElementById("myTable");
+            
+        }
+    </script>
+</body>
+</html>
